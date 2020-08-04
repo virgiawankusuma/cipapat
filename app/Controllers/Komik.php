@@ -56,10 +56,31 @@ class Komik extends BaseController
                     'required' => 'Judul komik harus diisi !',
                     'is_unique' => 'Judul komik sudah terdaftar !'
                 ]
+            ],
+            'sampul' => [
+                'rules' => 'max_size[sampul,1024]|is_image[sampul]|mime_in[sampul,image/jpg,image/jpeg,image/png]',
+                'errors' => [
+                    'max_size' => 'Ukuran gambar terlalu besar !',
+                    'is_image' => 'Yang anda upload bukan gambar !',
+                    'mime_in' => 'Yang anda upload bukan gambar !'
+                ]
             ]
         ])) {
-            $validation = \Config\Services::validation();
-            return redirect()->to('/komik/create')->withInput()->with('validation', $validation);
+            // $validation = \Config\Services::validation();
+            // return redirect()->to('/komik/create')->withInput()->with('validation', $validation);
+            return redirect()->to('/komik/create')->withInput();
+        }
+
+        // ambil gambar
+        $fileSampul = $this->request->getFile('sampul');
+        // apakah tidak ada gambar yang diupload
+        if ($fileSampul->getError() == 4) {
+            $namaSampul = 'default.jpg';
+        } else {
+            // generate nama sampul random
+            $namaSampul = $fileSampul->getRandomName();
+            // pindahkan file ke folder img
+            $fileSampul->move('img', $namaSampul);
         }
 
         $slug = url_title($this->request->getVar('judul'), '-', true);
@@ -68,7 +89,7 @@ class Komik extends BaseController
             'slug' => $slug,
             'penulis' => $this->request->getVar('penulis'),
             'penerbit' => $this->request->getVar('penerbit'),
-            'sampul' => $this->request->getVar('sampul')
+            'sampul' => $namaSampul
         ]);
 
         session()->setFlashdata('pesan', 'Data berhasil ditambahkan.');
@@ -77,6 +98,15 @@ class Komik extends BaseController
 
     public function delete($id)
     {
+        // cari gambar berdasarkan id
+        $komik = $this->M_komik->find($id);
+
+        // cek jika file sampulnya default.jpg
+        if ($komik->sampul != 'default.jpg') {
+            // hapus gambar
+            unlink('img/' . $komik->sampul);
+        }
+
         $this->M_komik->delete($id);
         session()->setFlashdata('pesan', 'Data berhasil dihapus.');
         return redirect()->to('/komik');
@@ -109,10 +139,30 @@ class Komik extends BaseController
                     'required' => 'Judul komik harus diisi !',
                     'is_unique' => 'Judul komik sudah terdaftar !'
                 ]
+            ],
+            'sampul' => [
+                'rules' => 'max_size[sampul,1024]|is_image[sampul]|mime_in[sampul,image/jpg,image/jpeg,image/png]',
+                'errors' => [
+                    'max_size' => 'Ukuran gambar terlalu besar !',
+                    'is_image' => 'Yang anda upload bukan gambar !',
+                    'mime_in' => 'Yang anda upload bukan gambar !'
+                ]
             ]
         ])) {
-            $validation = \Config\Services::validation();
-            return redirect()->to('/komik/edit/' . $this->request->getVar('slug'))->withInput()->with('validation', $validation);
+            return redirect()->to('/komik/edit/' . $this->request->getVar('slug'))->withInput();
+        }
+
+        $fileSampul = $this->request->getFile('sampul');
+
+        // cek gambar apakah tetap gambar lama
+        if ($fileSampul->getError() == 4) {
+            $namaSampul = $this->request->getVar('sampulLama');
+        } else {
+            $namaSampul = $fileSampul->getRandomName();
+            // pindahkan gambar
+            $fileSampul->move('img', $namaSampul);
+            // hapus file lama
+            unlink('img/' . $this->request->getVar('sampulLama'));
         }
 
         $slug = url_title($this->request->getVar('judul'), '-', true);
@@ -122,7 +172,7 @@ class Komik extends BaseController
             'slug' => $slug,
             'penulis' => $this->request->getVar('penulis'),
             'penerbit' => $this->request->getVar('penerbit'),
-            'sampul' => $this->request->getVar('sampul')
+            'sampul' => $namaSampul
         ]);
 
         session()->setFlashdata('pesan', 'Data berhasil diupdate.');

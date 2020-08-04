@@ -4,8 +4,9 @@
     <div class="row">
         <div class="col-8">
             <h2 class="my-3">Form <?= $judul; ?></h2>
-            <form action="/komik/update/<?= $komik->id; ?>" method="POST" autocomplete="off">
+            <form action="/komik/update/<?= $komik->id; ?>" method="POST" autocomplete="off" enctype="multipart/form-data">
                 <?= csrf_field(); ?>
+                <input type="hidden" name="sampulLama" value="<?= $komik->sampul; ?>">
                 <input type="hidden" name="slug" value="<?= $komik->slug; ?>">
                 <div class="form-group row">
                     <label for="judul" class="col-sm-2" col-form-label>Judul</label>
@@ -30,8 +31,17 @@
                 </div>
                 <div class="form-group row">
                     <label for="sampul" class="col-sm-2" col-form-label>Sampul</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="sampul" name="sampul" value="<?= (old('sampul')) ? old('sampul') : $komik->sampul ?>">
+                    <div class="col-sm-2">
+                        <img src="/img/<?= $komik->sampul; ?>" alt="" class="img-thumbnail img-preview">
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input <?= ($validation->hasError('sampul')) ? 'is-invalid' : ''; ?>" id="sampul" name="sampul" onchange="previewImg()">
+                            <label for="sampul" class="custom-file-label"><?= $komik->sampul; ?></label>
+                            <div class="invalid-feedback">
+                                <?= $validation->getError('sampul'); ?>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="form-group row">
