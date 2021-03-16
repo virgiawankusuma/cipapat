@@ -1,0 +1,8 @@
+CRITICAL - 2020-08-01 02:30:36 --> Undefined variable: M_komik
+#0 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(886): App\Controllers\Komik->__construct()
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

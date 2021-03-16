@@ -1,0 +1,264 @@
+CRITICAL - 2020-08-03 00:00:01 --> Undefined variable: k
+#0 C:\xampp\htdocs\cipapat\app\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(31): view('komik/detail', Array)
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('naruto')
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-03 00:00:16 --> Undefined variable: k
+#0 C:\xampp\htdocs\cipapat\app\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(31): view('komik/detail', Array)
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('naruto')
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-03 00:14:09 --> Trying to get property 'sampul' of non-object
+#0 C:\xampp\htdocs\cipapat\app\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(31): view('komik/detail', Array)
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('create')
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-03 00:14:35 --> Trying to get property 'sampul' of non-object
+#0 C:\xampp\htdocs\cipapat\app\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(31): view('komik/detail', Array)
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('create')
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-03 00:14:39 --> Trying to get property 'sampul' of non-object
+#0 C:\xampp\htdocs\cipapat\app\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(31): view('komik/detail', Array)
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('create')
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-03 00:34:02 --> Trying to get property 'sampul' of non-object
+#0 C:\xampp\htdocs\cipapat\app\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(31): view('komik/detail', Array)
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('aaa')
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-03 00:35:42 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-03 00:35:54 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-03 00:36:01 --> Class 'CodeIgniter\Exception' not found
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('aaa')
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-03 00:36:09 --> Class 'CodeIgniter\Exception' not found
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('aaa')
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-03 00:36:51 --> Class 'CodeIgniter\Exception\PageNotFoundException' not found
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('aaa')
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-03 00:37:38 --> Class 'CodeIgniter\Exception\PageNotFoundException' not found
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('aaa')
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-03 00:38:49 --> Class 'CodeIgniter\Exception\PageNotFoundException' not found
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('narutoo')
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-03 00:50:44 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\xampp\htdocs\cipapat\app\Controllers\Komik.php on line 51
+#0 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(51): url_title(NULL, '-', true)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->save()
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-03 00:52:11 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\xampp\htdocs\cipapat\app\Controllers\Komik.php on line 51
+#0 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(51): url_title(NULL, '-', true)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->save()
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-03 00:52:21 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\xampp\htdocs\cipapat\app\Controllers\Komik.php on line 51
+#0 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(51): url_title(NULL, '-', true)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->save()
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-03 00:54:10 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\xampp\htdocs\cipapat\app\Controllers\Komik.php on line 51
+#0 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(51): url_title(NULL, '-', true)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->save()
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-03 00:55:34 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\xampp\htdocs\cipapat\app\Controllers\Komik.php on line 51
+#0 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(51): url_title(NULL, '-', true)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->save()
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-03 23:15:50 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('komik')
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('komik')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-03 23:16:05 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\cipapat\app\Models\M_komik.php(17): CodeIgniter\Model->findAll()
+#5 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(19): App\Models\M_komik->getKomik()
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->index()
+#7 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-08-03 23:16:05 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\cipapat\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\cipapat\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Komik), true)
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Debug\Exceptions.php(299): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Debug\Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-03 23:17:16 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\cipapat\app\Models\M_komik.php(17): CodeIgniter\Model->findAll()
+#5 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(19): App\Models\M_komik->getKomik()
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->index()
+#7 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-08-03 23:17:16 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\cipapat\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\cipapat\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Komik), true)
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Debug\Exceptions.php(299): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Debug\Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-03 23:17:34 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\cipapat\app\Models\M_komik.php(17): CodeIgniter\Model->findAll()
+#5 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(19): App\Models\M_komik->getKomik()
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->index()
+#7 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-08-03 23:17:34 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\cipapat\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\cipapat\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Komik), true)
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Debug\Exceptions.php(299): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Debug\Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-03 23:30:32 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 C:\xampp\htdocs\cipapat\app\Views\komik\create.php(13): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('komik/create', Array, true)
+#3 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(46): view('komik/create', Array)
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->create()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-03 23:42:29 --> Call to undefined function App\Controllers\CASE_UPPER()
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->save()
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}

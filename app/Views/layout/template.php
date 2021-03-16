@@ -40,6 +40,7 @@
             }
         }
     </script>
+    <?= $this->include('layout/footer'); ?>
 </body>
 
 </html>

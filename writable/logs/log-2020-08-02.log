@@ -1,0 +1,114 @@
+CRITICAL - 2020-08-02 21:40:09 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(17): CodeIgniter\Model->findAll()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->index()
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-08-02 21:40:10 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\cipapat\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\cipapat\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Komik), true)
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Debug\Exceptions.php(299): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Debug\Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-02 23:18:08 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type int, string given, called in C:\xampp\htdocs\cipapat\app\Controllers\Komik.php on line 28
+#0 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(28): CodeIgniter\Model->findAll('anjing')
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('anjing')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-02 23:18:11 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type int, string given, called in C:\xampp\htdocs\cipapat\app\Controllers\Komik.php on line 28
+#0 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(28): CodeIgniter\Model->findAll('naruto')
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('naruto')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-02 23:27:40 --> Undefined variable: komik
+#0 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('naruto')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-02 23:35:21 --> Undefined variable: komik
+#0 C:\xampp\htdocs\cipapat\app\Views\komik\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(31): view('komik/detail')
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('naruto')
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-02 23:36:44 --> Undefined variable: komik
+#0 C:\xampp\htdocs\cipapat\app\Views\komik\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(31): view('komik/detail')
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('naruto')
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-02 23:36:55 --> Undefined variable: komik
+#0 C:\xampp\htdocs\cipapat\app\Views\komik\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(31): view('komik/detail')
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('naruto')
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-02 23:37:51 --> Undefined variable: k
+#0 C:\xampp\htdocs\cipapat\app\Views\komik\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(31): view('komik/detail')
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('naruto')
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-02 23:38:17 --> Undefined variable: k
+#0 C:\xampp\htdocs\cipapat\app\Views\komik\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(31): view('komik/detail')
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('naruto')
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-02 23:38:58 --> Undefined variable: k
+#0 C:\xampp\htdocs\cipapat\app\Views\komik\detail.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('komik/detail', Array, true)
+#3 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(31): view('komik/detail', Array)
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail('naruto')
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

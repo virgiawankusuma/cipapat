@@ -1,0 +1,81 @@
+CRITICAL - 2021-03-13 07:35:40 --> Trying to get property 'features' of non-object
+#0 C:\xampp\htdocs\cipapat\app\Controllers\Coba.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Coba->about()
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-13 21:29:40 --> Trying to get property 'attributes' of non-object
+#0 C:\xampp\htdocs\cipapat\app\Controllers\Coba.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Coba->index()
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-13 21:29:49 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('coba')
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('coba')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-13 21:29:56 --> syntax error, unexpected '0' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('coba')
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('coba')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-13 21:29:59 --> syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('coba')
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('coba')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-13 21:30:20 --> syntax error, unexpected '0' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('coba')
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('coba')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-13 21:30:25 --> syntax error, unexpected ''0'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('coba')
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('coba')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-13 21:30:29 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('coba')
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('coba')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-13 21:50:15 --> Undefined property: App\Controllers\Coba::$db
+#0 C:\xampp\htdocs\cipapat\app\Controllers\Coba.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Coba->index()
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-13 22:58:03 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\cipapat\app\Controllers\Coba.php(16): explode(',', Array)
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Coba->index()
+#3 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}

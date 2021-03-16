@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1597682506;_ci_previous_url|s:34:"http://localhost:8080/komik/create";_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:0:{}}__ci_vars|a:2:{s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";}_ci_validation_errors|s:101:"a:2:{s:5:"judul";s:25:"Judul komik harus diisi !";s:6:"sampul";s:29:"Ukuran gambar terlalu besar !";}";

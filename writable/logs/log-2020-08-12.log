@@ -1,0 +1,18 @@
+CRITICAL - 2020-08-12 07:24:45 --> Too few arguments to function App\Controllers\Komik::detail(), 0 passed in C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail()
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-12 07:25:03 --> Trying to get property 'sampul' of non-object
+#0 C:\xampp\htdocs\cipapat\app\Views\komik\detail.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('/komik/detail', Array, true)
+#3 C:\xampp\htdocs\cipapat\app\Controllers\Komik.php(37): view('/komik/detail', Array)
+#4 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Komik->detail()
+#5 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cipapat\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cipapat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
